@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+
+}
+.row{
+    width: 100%;                    
+}
+
+h1 {
+    padding: 50px;
+    font-family:cursive;
+    text-align: center;
+}
+
+div {
+    background-color: yellow;
+}
+
+p {
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    margin-left: auto;
+    position: relative;
+    top: -27px;
+    right: -11px;
+}
+
+section {
+    margin: 10px;
+}
+
+div > section > div > div {
+    padding: 10px;
+    border: 1px solid black;    
+}
+
+div > p {
+    
+}
+
+#p1 {
+    background-color: pink;
+    
+}
+
+#p2 {
+    background-color: maroon;
+    color: white;
+}
+
+#p3 {
+    background-color: lightgoldenrodyellow;
+}
+
+/************* Desktop Devices Only ***********/
+@media (min-width: 992px) {
+    .col-lg-3 {
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 30px;
+    
+    }
+
+    .col-lg-3 {
+        width: 25%      
+    }
+}
+
+
+/********** Tablet Devices Only **************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #section1 {
+        width: 45%;
+        float: left;
+    }
+
+    #section2 {
+        width: 45%; 
+        float: left;                            
+    }
+
+    #section3 { 
+        width: 92.5%;
+        float: left;
+    }
+
+}
+
+
+/************ Mobile Devices Only *************/
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
