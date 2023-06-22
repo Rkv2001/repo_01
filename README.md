@@ -1,2 +1,2 @@
-# repo_01
+# Basic HTML,CSS website
 This is demo of learning
